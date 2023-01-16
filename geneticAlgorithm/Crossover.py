@@ -43,7 +43,6 @@ class NPointCrossover:
         new_ind2 = np.zeros(chromosome_1.size)
         cuts = random.sample(range(n_points), n_points)
         # Assigns a side of the cuts to each chromosome
-        print(cuts)
         lim = int(len(cuts) / 2)
         ind_1_selected_cuts = cuts[0:lim]
         ind_2_selected_cuts = cuts[lim:]

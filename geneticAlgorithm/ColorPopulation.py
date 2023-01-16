@@ -15,6 +15,13 @@ class ColorPopulation:
         self.individuals = random.sample(self.individuals, k=len(self.individuals))
 
     @staticmethod
+    def merge_population(population1, population2) -> "ColorPopulation":
+        individuals_1 = population1.individuals
+        individuals_2 = population2.individuals
+        merged = individuals_1 + individuals_2
+        return ColorPopulation(merged)
+
+    @staticmethod
     def generate_random_population(number_individuals) -> "ColorPopulation":
         pop = []
         for _ in range(0, number_individuals):
