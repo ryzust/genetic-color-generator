@@ -1,10 +1,13 @@
 from flask import Flask, jsonify, request
 from geneticAlgorithm.ColorPopulation import ColorPopulation
+from flask_cors import CORS, cross_origin
 
 
 app = Flask(__name__)
+CORS(app)
 
 
+@cross_origin
 @app.route("/getPopulation", methods=["GET"])
 def get_initial_population():
     population = ColorPopulation.generate_random_population(20)
@@ -12,6 +15,7 @@ def get_initial_population():
     return jsonify(response)
 
 
+@cross_origin
 @app.route("/trainPopulation", methods=["POST"])
 def train_population():
     current_population = request.json
