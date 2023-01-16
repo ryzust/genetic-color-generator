@@ -24,8 +24,13 @@ def train_population():
     next_population = ColorPopulation.mutate_population(next_population, 0.05)
     # TODO: repeat with population randomized
     filtered_population.randomize_population_order()
+    next_population_2 = ColorPopulation.crossover_population(filtered_population)
+    next_population_2 = ColorPopulation.mutate_population(next_population2, 0.05)
     response = ColorPopulation.population_to_dictionary(next_population)
-    return jsonify(response)
+    response2 = ColorPopulation.population_to_dictionary(next_population_2)
+    final_response = response | response2
+
+    return jsonify(final_response)
 
 
 if __name__ == "__main__":
