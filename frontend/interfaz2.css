@@ -1,0 +1,289 @@
+.fondo {
+    width: 1500px;
+    height: 750px;
+    background-color: #1a0764;
+    border-radius: 20px;
+}
+
+.bordefondo {
+    width: 1462px;
+    height: 712px;
+    border-radius: 20px;
+    border: 2px solid rgb(65, 94, 190);
+    background-color: transparent;
+
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.miMensaje {
+    width: 500px;
+    height: 60px;
+    padding-top: 50px;
+    /* o margin-top: 100px; */
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+}
+.ventana1 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}
+
+.ventana2 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 280px;
+}
+
+.ventana3 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 480px;
+}
+
+.ventana4 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 680px;
+}
+
+.ventana5 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 880px;
+}
+
+.ventana6 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 1080px;
+}
+
+.ventana7 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 130px;
+    left: 1280px;
+}
+
+.ventana8 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 80px;
+}
+
+.ventana9 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 280px;
+}
+
+.ventana10 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 480px;
+}
+
+.ventana11 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 680px;
+}
+
+.ventana12 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 880px;
+}
+
+.ventana13 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 1080px;
+}
+
+.ventana14 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 330px;
+    left: 1280px;
+}
+
+.ventana15 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 80px;
+}
+
+.ventana16 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 280px;
+}
+
+.ventana17 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 480px;
+}
+
+.ventana18 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 680px;
+}
+
+.ventana19 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 880px;
+}
+
+.ventana20 {
+    width: 150px;
+    height: 150px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 530px;
+    left: 1080px;
+}
+
+
+.contenedor {
+    display: flex;
+    /* Establecemos el display flex en el contenedor*/
+    align-items: center;
+    /* Centramos el contenido verticalmente */
+    justify-content: center;
+    /* Centramos el contenido horizontalmente */
+}
+
+#color-box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 30px;
+}

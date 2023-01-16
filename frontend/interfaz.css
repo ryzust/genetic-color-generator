@@ -1,0 +1,123 @@
+.fondo {
+    width: 1500px;
+    height: 750px;
+    background-color: #1a0764;
+    border-radius: 20px;
+}
+
+.bordefondo {
+    width: 1462px;
+    height: 712px;
+    border-radius: 20px;
+    border: 2px solid rgb(65, 94, 190);
+    background-color: transparent;
+
+    position: absolute;
+    top: 25px;
+    left: 25px; 
+}
+
+.ventana1 {
+    width: 400px;
+    height: 400px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fbfafa;
+
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.ventana2 {
+    width: 400px;
+    height: 400px;
+    background-color: #f5f5f7;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #fefcfc;
+
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+
+.miMensaje {
+    width: 500px;
+    height: 60px;
+    padding-top: 100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+}
+
+.contenedor {
+    display: flex;
+    /* Establecemos el display flex en el contenedor*/
+    align-items: center;
+    /* Centramos el contenido verticalmente */
+    justify-content: center;
+    /* Centramos el contenido horizontalmente */
+}
+
+.button {
+    width: 100px;
+    height: 25px;
+    color: rgb(65, 94, 190);
+    margin-top: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #888888;
+
+    /* position: absolute;
+    top: 300px; */
+}
+
+.button2 {
+    width: 100px;
+    height: 25px;
+    color: rgb(65, 94, 190);
+    margin-top: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #888888;
+
+    /* position: absolute;
+    top: 300px; */
+}
+
+
+#color-box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 100px;
+}
+
+#color-box2 {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    margin-top: 100px;
+}
+
+.buttonWeb {
+    width: 100px;
+    height: 50px;
+    color: rgb(19, 192, 123);
+    margin-top: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #888888;
+    /* display: block;
+    margin: auto; */
+    position: absolute;
+    top: 450px;  
+    left: 750px;
+}
+
